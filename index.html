@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <title>Početna</title>
+   <link rel="stylesheet" type="text/css" href="dizajn.css"/>
+   <script src="funkcionalnost.js"></script>
+</head>
+<body class="pocetna">    
+			<header>
+					<h1 class="naslov">Turistička agencija "Planinar"</h1>
+						<ul>
+							  <li><a href="index.html" class="active">Početna</a></li>
+							  <li><a href="autor.html">О autoru</a></li>
+							  <li><a href="uputstvo.html">Uputstvo</a></li>
+						</ul>
+			</header>
+			<br/>
+			<main>
+    <form id="forma">
+        <br/> <!--moglo je i preko addEventListener metode u .js: https://www.w3schools.com/jsref/event_onchange.asp-->
+        Izaberite grad:<select id="izborGrada" onchange="promeniPrognozu()">
+        <option value="beograd">Beograd</option>
+        <option value="novi-sad">Novi Sad</option>
+        <option value="subotica">Subotica</option>
+        <option value="nis">Niš</option>
+        <option value="kragujevac">Kragujevac</option>
+        <option value="valjevo">Valjevo</option>
+        <option value="leskovac">Leskovac</option>
+        <option value="cacak">Čačak</option>
+        <option value="sabac">Šabac</option>
+        <option value="uzice">Užice</option>
+        </select>
+    </form><br/>
+    <iframe src="http://www.naslovi.net/vremenska-prognoza/beograd" id="link"></iframe><br/>
+    </main>
+	<br/>
+    <footer>
+        &copy Turistička agencija "Planinar"
+    </footer>
+</body>
+</html>

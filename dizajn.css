@@ -1,0 +1,101 @@
+body
+{
+    background-color:#ff5500;    
+    color:black;
+    height:100%;
+    font-family: sans-serif;   
+}
+.pocetna{
+   
+	background-image:url('slike/oblaci.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+.pocetna h1
+{
+    color: #ff5500;
+}
+h1
+{
+  color: white;
+	text-align:center;
+}
+iframe{
+    width:650px;
+    height:580px;
+    padding-bottom: 120px;
+    border:none;
+}
+main
+{
+    width:940px;
+    text-align: center;
+    margin: auto;
+    background-color:aliceblue;
+    opacity: 0.75;
+}
+.glavni
+{
+  padding: 15px;
+  height:700px;
+}
+p
+{
+  text-align: center;
+}
+/*meni*/
+ul {
+    list-style-type: none;
+    margin:auto;
+    padding: auto;
+    overflow: hidden;
+    width:890px;
+  }
+  
+/*
+float property:
+https://developer.mozilla.org/en-US/docs/Web/CSS/float
+https://www.w3schools.com/cssref/pr_class_float.php
+
+Preporuka je koristiti CSS FlexBox umesto float
+*/
+
+  li {
+    border-right:1px solid red;
+    background-color: white;
+    float:left;
+    width:292px;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: blue;
+    text-align: center;
+   padding: 12px 16px;
+    text-decoration: none;
+    font-size: 18px;  
+
+  }
+ 
+  .active {
+    background-color: #ff5500;
+    color:white;
+  }
+
+ footer
+  {
+     text-align:center;          
+        width: 100%;
+		color:#ff5500;
+}
+
+/*senka teksta: https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow*/
+.naslov{
+  text-shadow: rgb(28, 27, 24) 1px 0 10px
+}
