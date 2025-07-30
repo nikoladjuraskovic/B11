@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Turistička agencija "Planinar"</h1>
+      <nav>
+        <ul>
+          <li class="trenutna"><a href="pocetna.html">Početna</a></li>
+          <li><a href="autor.html">O autoru</a></li>
+          <li><a href="uputstvo.html">Uputstvo</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <form>
+          <label for="grad">Izeberite grad</label>
+          <select name="grad" id="grad">
+            <option value="beograd">Beograd</option>
+            <option value="novi-sad">Novi Sad</option>
+            <option value="subotica">Subotica</option>
+            <option value="nis">Niš</option>
+            <option value="kragujevac">Kragujevac</option>
+            <option value="valjevo">Valjevo</option>
+            <option value="leskovac">Leskovac</option>
+            <option value="cacak">Čačak</option>
+            <option value="sabac">Šabac</option>
+            <option value="uzice">Užice</option>
+          </select>
+        </form>
+        <iframe
+          src="http://www.naslovi.net/vremenska-prognoza/beograd"
+        ></iframe>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; Turistička agencija "Planinar"</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
